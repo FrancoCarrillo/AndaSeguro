@@ -1,0 +1,112 @@
+/*tamaño de ventana - ancho 1349px*/
+/*border: solid 1px black;*/
+body
+{
+    position: absolute;
+    background: #90E3FF;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+}
+
+header
+{
+
+    float: left;
+    width: 674px;
+    height: 95px;
+}
+#imagen-logotipo
+{
+    position: relative;
+    width: 170px;
+    height: 70px;
+    left: 40px;
+    top: 10px;
+}
+nav
+{
+
+    float: left;
+
+    font-family: Montserrat;
+    font-size: 10px;
+
+    width: 675px;
+    height: 95px;
+
+}
+.Home
+{
+   float: left;
+   position: relative;
+   top: 25px;
+   color: #FE242A;
+
+}
+.ComoFunciona
+{
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 100px;
+}
+.NuestrosPlanes
+{
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 180px;
+}
+.Descargar
+{
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 260px;
+}
+.Presentacion
+{
+    position: absolute;
+    top: 95px;
+    /*display: inline-block;*/
+
+}
+.imagen-Presentacion1
+{
+    position: absolute;
+    width: 1349px;
+    height: 542px;
+
+}
+.imagen-Presentacion2
+{
+    position: absolute;
+    top: 25px;
+    left: 1063px;
+    width: 230px;
+    height: 460px;
+}
+.Titulo1
+{
+    text-str
+    position: relative;
+    left: 10px;
+    top: 5px;
+    border:  1px black;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 60px;
+    letter-spacing: 0.2px;
+    color: #FD212F;
+
+
+}
+
+footer
+{
+     background: #90E3FF;
+}
+
+

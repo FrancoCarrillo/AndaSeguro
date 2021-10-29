@@ -12,13 +12,15 @@ body
 /* HEADER */
 header
 {
+    position: fixed;
     float: left;
-    width: 674px;
+    width: 680px;
     height: 95px;
+    background: #5FD7FF;
 }
 #imagen-logotipo
 {
-    position: relative;
+    position: fixed;
     width: 170px;
     height: 70px;
     left: 40px;
@@ -27,13 +29,16 @@ header
 /* NAVEGACION */
 nav
 {
+    position: fixed;
     float: left;
-
     font-family: Montserrat;
     font-size: 10px;
+    left: 676px;
 
     width: 675px;
     height: 95px;
+
+    background: #5FD7FF;
 
 }
 .Home
@@ -201,6 +206,7 @@ nav
     font-size: 18px;
     text-align: justify;
 }
+/*COMOFUNCIONA*/
 .¿ComoFunciona\?
 {
     position: absolute;
@@ -259,7 +265,6 @@ nav
     width: 370px;
     height: 195px;
 }
-
 .IntroducirRuta
 {
     position: absolute;
@@ -270,8 +275,6 @@ nav
     width: 370px;
     height: 195px;
 }
-
-
 .DisfrutatuViaje
 {
     position: absolute;
@@ -281,7 +284,6 @@ nav
     width: 370px;
     height: 195px;
 }
-
 .Titulo1-Funciona
 {
     position: absolute;
@@ -324,6 +326,125 @@ nav
     letter-spacing: 0.2px;
 
     color: #737373;
+}
+/*PLANES*/
+.Planes
+{
+    position: absolute;
+    top: 1872px;
+    height: 624px;
+}
+.Titulo-Planes
+{
+
+    position: relative;
+    left: 30px;
+
+    font-family: Poppins;
+    font-size: 45px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.Rectangulo-Planes1
+{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+
+    left: 170px;
+    top: 100px;
+
+    border: 3px solid #FD212F;
+    box-sizing: border-box;
+    border-radius: 55px;
+
+}
+.Rectangulo-Planes2
+{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+
+    left: 830px;
+    top: 100px;
+
+    border: 3px solid #FD212F;
+    box-sizing: border-box;
+    border-radius: 55px;
+}
+.Titulo1-Planes1
+{
+    position: relative;
+    text-align: center;
+    top: 15px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+.Titulo2-Planes1
+{
+    position: relative;
+    text-align: center;
+    top: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+    color: #6A6A6A;
+}
+.Parrafo-Planes1
+{
+
+    position: relative;
+    left: 30px;
+    top: 35px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 36px;
+
+    letter-spacing: 0.1px;
+
+    color: #6A6A6A;
+}
+
+.Elegir-Planes1
+{
+    position: relative;
+    width: 130px;
+    height: 55px;
+    left: 107px;
+    top: 50px;
+
+    background: #FF1521;
+    border-radius: 22px;
+}
+.Titulo-Elegir-Planes1
+{
+    position: relative;
+    top: 10px;
+
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
 }
 footer
 {

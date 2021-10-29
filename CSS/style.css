@@ -1,4 +1,4 @@
-/*tamaño de ventana - ancho 1349px*/
+/*tamaño de ventana - ancho 1349px - alto 624px*/
 /*border: solid 1px black;*/
 body
 {
@@ -9,10 +9,9 @@ body
     right: -8px;
     bottom: -8px;
 }
-
+/* HEADER */
 header
 {
-
     float: left;
     width: 674px;
     height: 95px;
@@ -25,9 +24,9 @@ header
     left: 40px;
     top: 10px;
 }
+/* NAVEGACION */
 nav
 {
-
     float: left;
 
     font-family: Montserrat;
@@ -66,12 +65,12 @@ nav
     top: 25px;
     left: 260px;
 }
+/*----CUERPO---*/
+/* PRESENTACION */
 .Presentacion
 {
     position: absolute;
     top: 95px;
-    /*display: inline-block;*/
-
 }
 .imagen-Presentacion1
 {
@@ -83,27 +82,249 @@ nav
 .imagen-Presentacion2
 {
     position: absolute;
-    top: 25px;
+    top: 57px;
     left: 1063px;
     width: 230px;
     height: 460px;
 }
 .Titulo1
 {
-    text-str
     position: relative;
-    left: 10px;
-    top: 5px;
-    border:  1px black;
+    left: 30px;
+    top: 30px;
     font-family: Poppins;
-    font-weight: bolder;
-    font-size: 60px;
+    font-weight:  bold;
+    font-size: 64px;
     letter-spacing: 0.2px;
     color: #FD212F;
 
 
 }
+.Rectangulo-Presentacion
+{
+    position: absolute;
+    height: 220px;
+    width: 665px;
+    top: 172px;
+    left: 30px;
+    background: rgba(196, 196, 196, 0.68);
+    border-radius: 59px;
+}
 
+.ParrafoPresentacion
+{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+}
+/*CARACTERISTICAS*/
+.Caracteristicas
+{
+    position: absolute;
+    top: 637px;
+    height: 624px;
+}
+.TituloC
+{
+
+    position: absolute;
+    top: -40px;
+    left: 920px;
+
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 55px;
+    line-height: 80px;
+
+    letter-spacing: 0.2px;
+
+    color: #FD212F;
+
+}
+.TituloI
+{
+    position: absolute;
+    top: 15px;
+    left: 1030px;
+
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 80px;
+
+    letter-spacing: 0.2px;
+
+    color: #FD212F;
+}
+.imagen-Caracteristicas
+{
+    position: absolute;
+    width: 605px;
+    height: 530px;
+    left: 735px;
+    top: 53px;
+}
+.Rectangulo-Caracteristicas
+{
+    position: relative;
+    width: 675px;
+    height: 160px;
+    left: 7px;
+    top: 30px;
+
+    background: #FDFFB1;
+    border-radius: 55px;
+
+    font-family: Poppins;
+}
+.Titulo-Caracteristicas
+{
+    opacity: 0.8;
+    font-size: 35px;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.Parrafo-Caracteristicas
+{
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    width: 545px;
+    font-size: 18px;
+    text-align: justify;
+}
+.¿ComoFunciona\?
+{
+    position: absolute;
+    top: 1248px;
+    height: 624px;
+}
+.imagen-Funciona1
+{
+    position: absolute;
+    height: 320px;
+    width: 200px;
+    left: 140px;
+    top: 90px;
+}
+.imagen-Funciona2
+{
+    position: absolute;
+    height: 320px;
+    width: 200px;
+    left: 550px;
+    top: 90px;
+}
+.imagen-Funciona3
+{
+    position: absolute;
+    height: 320px;
+    width: 200px;
+    left: 950px;
+    top: 90px;
+}
+.Titulo-Funciona
+{
+    position: absolute;
+    width: 627px;
+    height: 36px;
+    left: 20px;
+    top: -10px;
+
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 36px;
+
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+
+}
+.CrearCuenta
+{
+    position: absolute;
+    /*left: 166px;*/
+    left: 106px;
+    top: 410px;
+
+    width: 370px;
+    height: 195px;
+}
+
+.IntroducirRuta
+{
+    position: absolute;
+    /*left: 575px;*/
+    left: 530px;
+    top: 410px;
+
+    width: 370px;
+    height: 195px;
+}
+
+
+.DisfrutatuViaje
+{
+    position: absolute;
+    left: 926px;
+    top: 410px;
+
+    width: 370px;
+    height: 195px;
+}
+
+.Titulo1-Funciona
+{
+    position: absolute;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+
+    letter-spacing: 0.1px;
+
+    color: #FD212F;
+}
+.Titulo2-Funciona
+{
+    position: absolute;
+    left: 0px;
+    top: 28px;
+
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 30px;
+
+    letter-spacing: 0.2x;
+
+    color: #252B42;
+}
+.Parrafo-Funciona
+{
+    position: absolute;
+    width: 330px;
+    left: 0px;
+    top: 102px;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+
+    letter-spacing: 0.2px;
+
+    color: #737373;
+}
 footer
 {
      background: #90E3FF;

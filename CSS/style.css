@@ -436,7 +436,6 @@ nav
     position: relative;
     top: 10px;
 
-
     font-family: Montserrat;
     font-weight: bold;
     font-size: 14px;
@@ -446,9 +445,194 @@ nav
 
     color: #FFFFFF;
 }
+
+.SeccionDescargar
+{
+    position: absolute;
+    top: 2496px;
+    height: 457px;
+}
+.imagen-Descargar
+{
+    width: 1349px;
+    height: 457px;
+}
+.Titulo1-Descargar
+{
+    position: absolute;
+    top: 70px;
+    left: 402px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.Titulo2-Descargar
+{
+    position: absolute;
+    top: 180px;
+    left: 242px;
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+.PlayStore-Descargar
+{
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 430px;
+    top: 300px;
+
+    background: #FF1521;
+    border-radius: 22px;
+}
+.PlayStore-Titulo
+{
+    position: absolute;
+    left: 42px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.Appstore-Descargar
+{
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 710px;
+    top: 300px;
+
+    border: solid 3px black;
+    border-radius: 22px;
+}
+.Appstore-Titulo
+{
+    position: absolute;
+    left: 56px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
 footer
 {
-     background: #90E3FF;
+    position: absolute;
+    height: 90px;
+    top: 2953px;
+
 }
+.imagen-logotipo
+{
+    position: absolute;
+    top: 10px;
+    left: 85px;
+    width: 160px;
+    height: 66px;
+}
+.imagen-facebook
+{
+    position: absolute;
+    top: 30px;
+    left: 350px;
+
+    width: 30px;
+    height: 30px;
+}
+.titulo-facebook
+{
+    position: absolute;
+    top: 15px;
+    left: 400px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #EB4343;
+}
+.imagen-ig
+{
+    position: absolute;
+    top: 30px;
+    left: 535px;
+
+    width: 30px;
+    height: 30px;
+}
+.titulo-ig
+{
+    position: absolute;
+    top: 15px;
+    left: 585px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+    color: #EB4343;
+}
+.imagen-twitter
+{
+    position: absolute;
+    top: 30px;
+    left: 720px;
+
+    width: 30px;
+    height: 30px;
+}
+.titulo-twitter
+{
+    position: absolute;
+    top: 15px;
+    left: 770px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+    color: #EB4343;
+}
+.copywright
+{
+    position: relative;
+    top: 25px;
+    left: 1100px;
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    text-align: right;
+    letter-spacing: 0.1px;
+
+    color: #5C5C5C;
+}
+
+
 
 

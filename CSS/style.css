@@ -1,638 +1,804 @@
-/*tamaño de ventana - ancho 1349px - alto 624px*/
-/*border: solid 1px black;*/
+*
+{
+    box-sizing: border-box;
+    text-decoration: none;
+}
 body
 {
-    position: absolute;
     background: #90E3FF;
-    top: -8px;
-    left: -8px;
-    right: -8px;
-    bottom: -8px;
+    padding: 0px;
+    margin: 0px;
 }
-/* HEADER */
+/*CONTAINER*/
+.container
+{
+   width: 100%;
+   height: 100%;
+   max-width: 100%;
+   margin: 0 auto;
+}
+/*HEADER*/
 header
 {
-    position: fixed;
-    float: left;
-    width: 680px;
-    height: 95px;
     background: #5FD7FF;
-}
-#imagen-logotipo
-{
-    position: fixed;
-    width: 170px;
-    height: 70px;
-    left: 40px;
-    top: 10px;
-}
-/* NAVEGACION */
-nav
-{
-    position: fixed;
-    float: left;
+    width: 100%;
+    height: 13%;
     font-family: Montserrat;
-    font-size: 10px;
-    left: 676px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 0;
 
-    width: 675px;
-    height: 95px;
-
-    background: #5FD7FF;
-
-}
-.Home
-{
-   float: left;
-   position: relative;
-   top: 25px;
-   color: #FE242A;
+    position: fixed;
+    left: 0;
+    top: 0;
 
 }
-.ComoFunciona
+.imagen-logotipo
 {
     float: left;
-    position: relative;
-    top: 25px;
-    left: 100px;
+    width: auto;
+    height: auto;
+    margin-left: 8%;
+    margin-top: -4%;
 }
-.NuestrosPlanes
+.header-nav
 {
-    float: left;
-    position: relative;
-    top: 25px;
-    left: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.Descargar
+.menu-icon
 {
-    float: left;
-    position: relative;
-    top: 25px;
-    left: 260px;
+    display: none;
 }
-/*----CUERPO---*/
-/* PRESENTACION */
+header a
+{
+    color: black;
+    text-decoration: none;
+}
+.nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav ul li
+{
+    display: inline-block;
+}
+.nav ul li a
+{
+    display: block;
+    padding: 0.5rem 3rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.nav ul li a:hover
+{
+    background:#90E3FF ;
+    border: solid 1px black;
+}
+.nav-toggle
+{
+    color: black;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    line-height: 3rem;
+    display: none;
+}
+/*CUERPO*/
+main
+{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+/*SECCION 1*/
 .Presentacion
 {
-    position: absolute;
-    top: 95px;
+    margin-top: 1%;
+    width: 100%;
+    height: 533px;
 }
 .imagen-Presentacion1
 {
     position: absolute;
-    width: 1349px;
-    height: 542px;
-
+    width: 100%;
+    height: 540px;
+    opacity: 0.8;
 }
 .imagen-Presentacion2
 {
-    position: absolute;
-    top: 57px;
-    left: 1063px;
-    width: 230px;
-    height: 460px;
+   position: relative;
+   float: right;
+   width: auto;
+   padding-top: 3%;
+   padding-right: 5%;
+}
+.DescargarAhora
+{
+    background: #FF1521;
+    border-radius: 22px;
+    width: 50%;
+    margin-left: 25%;
+}
+.Titulo-DescargarAhora
+{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 4%;
+    text-align: center;
+    color: #FFFFFF;
 }
 .Titulo1
 {
     position: relative;
-    left: 30px;
-    top: 30px;
+    width: 95%;
+    padding-top: 2%;
+    padding-left: 4%;
+
     font-family: Poppins;
     font-weight:  bold;
-    font-size: 64px;
-    letter-spacing: 0.2px;
+    font-size: 4em;
     color: #FD212F;
-
-
 }
 .Rectangulo-Presentacion
 {
+    margin-top: -2%;
     position: absolute;
-    height: 220px;
-    width: 665px;
-    top: 172px;
-    left: 30px;
-    background: rgba(196, 196, 196, 0.68);
-    border-radius: 59px;
+    width: 50%;
+    height: 50%;
+    padding: 3%;
 }
-
 .ParrafoPresentacion
 {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-
+    position: relative;
+    background: rgba(196, 196, 196, 0.8);
+    border-radius: 59px;
+    padding: 4%;
+    padding-top: 6%;
+    padding-bottom: 6%;
     text-align: center;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 1.5em;
 }
-/*CARACTERISTICAS*/
+/*SECCION2*/
 .Caracteristicas
 {
-    position: absolute;
-    top: 637px;
-    height: 624px;
+    margin-top: 1%;
+    width: 100%;
 }
-.TituloC
+.TituloCaracteristicasImportantes
 {
-
-    position: absolute;
-    top: -40px;
-    left: 920px;
-
+    margin-top: 2%;
     font-family: Poppins;
     font-weight: bolder;
-    font-size: 55px;
-    line-height: 80px;
-
-    letter-spacing: 0.2px;
-
+    font-size: 3rem;
+    margin-left: 3%;
     color: #FD212F;
-
 }
-.TituloI
+.Imagen-Rectangulo-Caracteristicas
 {
-    position: absolute;
-    top: 15px;
-    left: 1030px;
-
-    font-family: Poppins;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 50px;
-    line-height: 80px;
-
-    letter-spacing: 0.2px;
-
-    color: #FD212F;
+    display: flex;
 }
 .imagen-Caracteristicas
 {
-    position: absolute;
-    width: 605px;
-    height: 530px;
-    left: 735px;
-    top: 53px;
+    display: flex;
+    justify-content: right;
+    flex: 50%;
+    width: auto;
+    height: auto;
+}
+.imagen-Caracteristicas img
+{
+    margin-right: 1%;
+}
+.ConjuntoRectangulo
+{
+    margin-top: 1%;
+    margin-left: 2%;
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
 }
 .Rectangulo-Caracteristicas
 {
-    position: relative;
-    width: 675px;
+    width: 98%;
     height: 160px;
-    left: 7px;
-    top: 30px;
-
     background: #FDFFB1;
-    border-radius: 55px;
-
+    border-radius: 50px;
     font-family: Poppins;
+    margin: 1%;
 }
-.Titulo-Caracteristicas
+.Titulo-Caracteristicas1
 {
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-bottom: 2%;
     opacity: 0.8;
-    font-size: 35px;
-    position: relative;
-    left: 50px;
-    top: 5px;
+    font-size: 2.2rem;
+}
+.Titulo-Caracteristicas2
+{
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-bottom: 4%;
+    opacity: 0.8;
+    font-size: 2.2rem;
 }
 .Parrafo-Caracteristicas
 {
-    position: absolute;
-    left: 50px;
-    top: 60px;
-    width: 545px;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 1rem;
     text-align: justify;
+    margin-top: -2%;
+    margin-left:  7%;
+    margin-right:  7%;
+    margin-bottom: 3%;
 }
-/*COMOFUNCIONA*/
-.¿ComoFunciona\?
+/*SECCION3*/
+.ComoFunciona
 {
-    position: absolute;
-    top: 1248px;
-    height: 624px;
-}
-.imagen-Funciona1
-{
-    position: absolute;
-    height: 320px;
-    width: 200px;
-    left: 140px;
-    top: 90px;
-}
-.imagen-Funciona2
-{
-    position: absolute;
-    height: 320px;
-    width: 200px;
-    left: 550px;
-    top: 90px;
-}
-.imagen-Funciona3
-{
-    position: absolute;
-    height: 320px;
-    width: 200px;
-    left: 950px;
-    top: 90px;
+    margin-top:  3%;
+    width: 100%;
 }
 .Titulo-Funciona
 {
-    position: absolute;
-    width: 627px;
-    height: 36px;
-    left: 20px;
-    top: -10px;
-
+    margin-top: 0%;
     font-family: Poppins;
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 36px;
-
-    letter-spacing: 0.1px;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-left: 3%;
     color: #000000;
     opacity: 0.8;
+}
+.row-ComoFunciona
+{
+    margin-top: -0%;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: Montserrat;
+}
+.imagen-Funciona
+{
+    display: flex;
+    justify-content: center;
 
 }
 .CrearCuenta
 {
-    position: absolute;
-    /*left: 166px;*/
-    left: 106px;
-    top: 410px;
-
-    width: 370px;
-    height: 195px;
+    flex: 33.3%;
 }
 .IntroducirRuta
 {
-    position: absolute;
-    /*left: 575px;*/
-    left: 530px;
-    top: 410px;
-
-    width: 370px;
-    height: 195px;
+    flex: 33.3%;
 }
 .DisfrutatuViaje
 {
-    position: absolute;
-    left: 926px;
-    top: 410px;
-
-    width: 370px;
-    height: 195px;
+    flex: 33.3%;
 }
 .Titulo1-Funciona
 {
-    position: absolute;
-
-    font-family: Montserrat;
     font-weight: bold;
     font-size: 18px;
-
     letter-spacing: 0.1px;
-
     color: #FD212F;
+    margin-left: 10%;
 }
 .Titulo2-Funciona
 {
-    position: absolute;
-    left: 0px;
-    top: 28px;
-
     font-family: Montserrat;
     font-weight: bolder;
     font-size: 30px;
     line-height: 30px;
-
     letter-spacing: 0.2x;
-
     color: #252B42;
+    margin-left: 10%;
 }
 .Parrafo-Funciona
 {
-    position: absolute;
-    width: 330px;
-    left: 0px;
-    top: 102px;
 
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
     line-height: 20px;
-
     letter-spacing: 0.2px;
-
     color: #737373;
+    margin-left: 10%;
+    margin-right: 1.5%;
 }
-/*PLANES*/
+/*SECCION4*/
 .Planes
 {
-    position: absolute;
-    top: 1872px;
-    height: 624px;
+    margin-top:  3%;
+    width: 100%;
 }
 .Titulo-Planes
 {
-
-    position: relative;
-    left: 30px;
-
+    margin-top: 0%;
     font-family: Poppins;
-    font-size: 45px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-left: 3%;
     color: #000000;
     opacity: 0.8;
 }
-
-.Rectangulo-Planes1
+.rowPlanes
 {
-    position: absolute;
-    width: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Plane1
+{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+}
+.Plane2
+{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+}
+.Rectangulo-Planes
+{
+    width: 52%;
     height: 500px;
 
-    left: 170px;
-    top: 100px;
-
     border: 3px solid #FD212F;
-    box-sizing: border-box;
-    border-radius: 55px;
-
-}
-.Rectangulo-Planes2
-{
-    position: absolute;
-    width: 350px;
-    height: 500px;
-
-    left: 830px;
-    top: 100px;
-
-    border: 3px solid #FD212F;
-    box-sizing: border-box;
     border-radius: 55px;
 }
-.Titulo1-Planes1
+.Titulo1-Planes
 {
-    position: relative;
     text-align: center;
-    top: 15px;
-
+    margin-top: 11%;
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 53px;
-    letter-spacing: 0.2px;
-
+    font-size: 2.6rem;
     color: #000000;
 }
-.Titulo2-Planes1
+.Titulo2-Planes
 {
-    position: relative;
     text-align: center;
-    top: 30px;
-
     font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
-
+    font-size: 2.6rem;
     color: #6A6A6A;
 }
-.Parrafo-Planes1
+.Parrafo-Planes
 {
-
-    position: relative;
-    left: 30px;
-    top: 35px;
-
     font-family: Montserrat;
-    font-size: 20px;
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size: 1.3rem;
     line-height: 36px;
-
-    letter-spacing: 0.1px;
-
     color: #6A6A6A;
 }
-
-.Elegir-Planes1
+.Elegir-Planes
 {
-    position: relative;
-    width: 130px;
-    height: 55px;
-    left: 107px;
-    top: 50px;
-
+    margin-left: 31%;
+    margin-right: 31%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 38%;
+    height: 12%;
     background: #FF1521;
     border-radius: 22px;
 }
-.Titulo-Elegir-Planes1
+.Titulo-Elegir-Planes
 {
-    position: relative;
-    top: 10px;
-
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 36px;
+    font-size: 1rem;
+    padding: 15%;
     text-align: center;
-    letter-spacing: 0.1px;
-
     color: #FFFFFF;
 }
-
-.SeccionDescargar
+/*SECCION5*/
+.Descargar
 {
-    position: absolute;
-    top: 2496px;
-    height: 457px;
+    margin-top: 3%;
+    width: 100%;
+    height: 462px;
 }
 .imagen-Descargar
 {
-    width: 1349px;
-    height: 457px;
+    opacity: 40%;
+    position: absolute;
+    width: 100%;
+    height: 460px;
+
 }
 .Titulo1-Descargar
 {
-    position: absolute;
-    top: 70px;
-    left: 402px;
-
+    position: relative;
+    text-align: center;
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 57px;
-    letter-spacing: 0.2px;
+    font-size: 2.6rem;
     color: #000000;
+    margin-top: 6.5%;
 }
 .Titulo2-Descargar
 {
-    position: absolute;
-    top: 180px;
-    left: 242px;
-
+    position: relative;
+    text-align: center;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 38px;
-
-    letter-spacing: 0.2px;
-
+    font-size: 1.5rem;
     color: #000000;
+    margin-top: 3.5%;
 }
-.PlayStore-Descargar
+.Botones-Descargar
 {
-    position: absolute;
-    width: 210px;
-    height: 60px;
-    left: 430px;
-    top: 300px;
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.PlayStore-Boton
+{
+    flex: 50%;
+    justify-content: right;
+    display: flex;
+    margin-right: 5%;
 
+}
+.Appstore-Boton
+{
+    flex: 50%;
+    justify-content: left;
+    display: flex;
+}
+.PlayStore-Rectangulo
+{
+    position: relative;
+    width: 31%;
+    border: solid 3px #FF1521;
     background: #FF1521;
     border-radius: 22px;
 }
 .PlayStore-Titulo
 {
-    position: absolute;
-    left: 42px;
+    text-align: center;
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
+    font-size: 1.3rem;
     color: #FFFFFF;
 }
-.Appstore-Descargar
+.Appstore-Rectangulo
 {
-    position: absolute;
-    width: 210px;
-    height: 60px;
-    left: 710px;
-    top: 300px;
-
+    position: relative;
+    width: 31%;
     border: solid 3px black;
     border-radius: 22px;
 }
 .Appstore-Titulo
 {
-    position: absolute;
-    left: 56px;
+    text-align: center;
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
+    font-size: 1.3rem;
     color: #000000;
 }
-
+/*FOOTER*/
 footer
 {
-    position: absolute;
-    height: 90px;
-    top: 2953px;
-
+    width: 100%;
+    height: 82px;
+    display: flex;
 }
-.imagen-logotipo
+.Logo-Footer
 {
-    position: absolute;
-    top: 10px;
-    left: 85px;
-    width: 160px;
-    height: 66px;
+    flex: 20%;
 }
-.imagen-facebook
+.imagen-logotipo-footer
 {
-    position: absolute;
-    top: 30px;
-    left: 350px;
-
-    width: 30px;
-    height: 30px;
+    padding-left: 20%;
+    padding-top: 3%;
 }
-.titulo-facebook
+.Boton-Footer
 {
-    position: absolute;
-    top: 15px;
-    left: 400px;
-
+    flex: 22%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Footer1
+{
+    flex: 50%;
+}
+.Footer2
+{
+    flex: 50%;
+}
+.imagen-footer
+{
+    margin-top: 15%;
+    margin-left: 70%;
+}
+.titulo-footer
+{
     font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
+    font-size: 1.3rem;
     color: #EB4343;
+    width: 100%;
+    margin-top: 17%;
 }
-.imagen-ig
+.Copyright-Footer
 {
-    position: absolute;
-    top: 30px;
-    left: 535px;
-
-    width: 30px;
-    height: 30px;
+    flex: 13%;
 }
-.titulo-ig
+.Copyright-Footer h1
 {
-    position: absolute;
-    top: 15px;
-    left: 585px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
-
-    color: #EB4343;
-}
-.imagen-twitter
-{
-    position: absolute;
-    top: 30px;
-    left: 720px;
-
-    width: 30px;
-    height: 30px;
-}
-.titulo-twitter
-{
-    position: absolute;
-    top: 15px;
-    left: 770px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
-
-    color: #EB4343;
-}
-.copywright
-{
-    position: relative;
-    top: 25px;
-    left: 1100px;
-
+    font-size: 0.70rem;
+    text-align: center;
     font-family: Roboto;
     font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-
-    text-align: right;
-    letter-spacing: 0.1px;
-
     color: #5C5C5C;
+    padding-top: 15%;
 }
+/*MEDIA QUERY */
+@media screen and (max-width:1010px) {
+    /*HEADER*/
+    .nav
+    {
+        lex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color: #90E3FF;
+        position: fixed;
+        top: 70px;
+        width: 100%;
+        padding: 20px 0;
 
+        height: 31%;
+        overflow-y: auto;
 
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .nav ul
+    {
+        display: none;
+    }
+    .nav ul
+    {
+        display: block;
+    }
+    .nav ul li
+    {
+        display: block;
+    }
+    .nav ul li a
+    {
+        display: block;
+        text-align: center;
+        padding: 0.5rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .nav-toggle
+    {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-menu_visible
+    {
+        left: 0;
+    }
+    .nav ul li a:hover
+    {
+        background: #5FD7FF;
+    }
+    /*CUERPO*/
+
+    /*SECCION1*/
+    .imagen-Presentacion2
+    {
+        display: none;
+    }
+    .Titulo1
+    {
+        position: absolute;
+        width: 100%;
+        padding-left: 0%;
+        text-align: center;
+        font-size: 3em;
+    }
+    .Rectangulo-Presentacion
+    {
+        width: 80%;
+        margin-top: 130px;
+        margin-left: 12%;
+    }
+    .ParrafoPresentacion
+    {
+        font-size: 1.2rem;
+    }
+    .DescargarAhora
+    {
+        margin-top: 10%;
+    }
+    /*SECCION2*/
+    .Imagen-Rectangulo-Caracteristicas
+    {
+        display: block;
+    }
+    .imagen-Caracteristicas
+    {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .TituloCaracteristicasImportantes
+    {
+        width: 100%;
+        font-family: Poppins;
+        font-weight: bolder;
+        font-size: 3rem;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .ConjuntoRectangulo
+    {
+        margin-top: 1%;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Rectangulo-Caracteristicas
+    {
+        width: 98%;
+        height: 160px;
+        background: #FDFFB1;
+        border-radius: 50px;
+        font-family: Poppins;
+        margin: 1%;
+    }
+    .Titulo-Caracteristicas1
+    {
+        margin-top: 2%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+        opacity: 0.8;
+        font-size: 2.2rem;
+    }
+    .Titulo-Caracteristicas2
+    {
+        margin-top: 2%;
+        margin-left: 7%;
+        margin-bottom: 4%;
+        opacity: 0.8;
+        font-size: 2.2rem;
+    }
+    .Parrafo-Caracteristicas
+    {
+        font-weight: normal;
+        font-size: 1rem;
+        text-align: justify;
+        margin-top: -2%;
+        margin-left:  7%;
+        margin-right:  7%;
+        margin-bottom: 3%;
+    }
+    /*SECCION3*/
+    .Titulo-Funciona
+    {
+        text-align: center;
+        margin-top: 6%;
+    }
+    .row-ComoFunciona
+    {
+        flex-wrap: wrap;
+    }
+     .CrearCuenta
+    {
+        flex: 100%;
+    }
+    .IntroducirRuta
+    {
+        flex: 100%;
+    }
+    .DisfrutatuViaje
+    {
+        flex: 100%;
+    }
+    .Titulo1-Funciona
+    {
+       text-align: center;
+       margin-left: 0%;
+    }
+    .Titulo2-Funciona
+    {
+        text-align: center;
+        margin-left: 0%;
+    }
+    .Parrafo-Funciona
+    {
+
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    /*SECCION4*/
+    .Titulo-Planes
+    {
+     text-align: center;
+    }
+    .rowPlanes
+    {
+        flex-wrap: wrap;
+    }
+    .Plane1
+    {
+        flex: 100%;
+        padding-bottom: 10%;
+    }
+    .Plane2
+    {
+        flex: 100%;
+    }
+    .Elegir-Planes
+    {
+        margin-top: 1%;
+    }
+    .Titulo-Elegir-Planes
+    {
+        margin-top: 10%;
+    }
+    .Rectangulo-Planes
+    {
+        width: 70%;
+    }
+    /*SECCION5*/
+    .PlayStore-Boton
+    {
+        flex: 100%;
+       justify-content: center;
+        margin-right: 0%;
+        margin-bottom: 5%;
+    }
+    .Appstore-Boton
+    {
+        flex: 100%;
+        justify-content: center;
+    }
+    .Botones-Descargar
+    {
+        flex-wrap: wrap;
+    }
+    /*FOOTER*/
+    footer
+    {
+        flex-wrap: wrap;
+    }
+    .Logo-Footer
+    {
+        display: none;
+    }
+    .Boton-Footer
+    {
+        flex: 100%;
+
+    }
+    .imagen-footer
+    {
+        margin-left:80%;
+    }
+    .Copyright-Footer
+    {
+        flex: 100%;
+    }
+    .Copyright-Footer h1
+    {
+        padding-top: 1%;
+       padding-left: 60%;
+    }
+}
 
 

@@ -2,3 +2,4 @@
 4 noviembre-> se agrego la sección principal
 5 noviembre-> se agrego la segunda y tercera seccion del main
 5 noviembre-> se agrego la cuarta seccion
+7 noviembre-> se agrego el footer y se hizo responsive el landing page

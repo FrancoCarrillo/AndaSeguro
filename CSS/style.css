@@ -94,7 +94,7 @@ header a
 main
 {
     display: flex;
-    margin-top: 5%;
+    margin-top: 68px;
     flex-direction: column;
 }
 /*SECCION 1*/
@@ -606,7 +606,6 @@ footer
     {
         position: absolute;
         width: 100%;
-        padding-left: 0%;
         text-align: center;
         font-size: 3em;
     }

@@ -6,3 +6,4 @@
 8 noviembre-> se corrigio la ubicacion del titulo de la seccion 1, en formato celular
 17 noviembre-> se corrigio la paleta de colores
 17 noviembre-> se modifico el logotipo
+17 noviembre-> se agregaron las imágenes en los botones de descarga

@@ -5,3 +5,4 @@
 7 noviembre-> se agrego el footer y se hizo responsive el landing page
 8 noviembre-> se corrigio la ubicacion del titulo de la seccion 1, en formato celular
 17 noviembre-> se corrigio la paleta de colores
+17 noviembre-> se modifico el logotipo

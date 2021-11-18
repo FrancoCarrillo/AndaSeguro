@@ -14,7 +14,7 @@
         <!--CUERPO-->
         <main>
             <!--SECCION1-->
-            <div class="Presentacion">
+            <div class="Presentacion" id="Home">
                 <img  class="imagen-Presentacion1" src="img/Calle.png">
                 <div class="imagen-Presentacion2"><img src="img/mobil1.png"></div>
                 <div class="Titulo1">¿Te gustaria viajar seguro?</div>
@@ -22,7 +22,7 @@
                     <p class="ParrafoPresentacion">
                         Con AndaSeguro podrás dirigirte a un destino de
                         la manera más segura y rápida posible sin mucho
-                        esfuerzo. Además de los grandes funcionalidades
+                        esfuerzo. Además de las grandes funcionalidades
                         que brindamos por ser usuario Premium.
                     </p>
                     <a href="#Descargar"><div class="DescargarAhora"><h1 class="Titulo-DescargarAhora">Descargar Ahora</h1></div></a>
@@ -89,7 +89,7 @@
                         <div class="Rectangulo-Planes">
                             <h1 class="Titulo1-Planes">Free</h1>
                             <h1 class="Titulo2-Planes">$0 al mes</h1>
-                            <dl class="Parrafo-Planes"><dt>Podras:</dt><dd>Realizar viajes indefinidamente pero<br> con anuncios</dd></dl>
+                            <dl class="Parrafo-Planes"><dt>Beneficios:</dt><dd>Realizar viajes indefinidamente pero<br> con anuncios</dd></dl>
                             <a href="#"><div class="Elegir-Planes"><h1 class="Titulo-Elegir-Planes">Elegir</h1></div></a>
                         </div>
                     </div>
@@ -97,13 +97,29 @@
                         <div class="Rectangulo-Planes">
                             <h1 class="Titulo1-Planes">Premium</h1>
                             <h1 class="Titulo2-Planes">$5 al mes</h1>
-                            <dl class="Parrafo-Planes"><dt>Podras:</dt><dd>Realizar viajes indefinidamente pero<br> sin anuncios</dd></dl>
+                            <dl class="Parrafo-Planes"><dt>Beneficios:</dt><dd>Realizar viajes indefinidamente pero<br> sin anuncios</dd></dl>
                             <a href="#"><div class="Elegir-Planes"><h1 class="Titulo-Elegir-Planes">Elegir</h1></div></a>
                         </div>
                     </div>
                 </div>
             </div>
             <!--SECCION5-->
+            <div class="Grafico-Delincuencia">
+                <h1 class = "Titulo-Grafico">Usuarios Activos</h1>
+                <div id="chartContainer" ></div>
+            </div>
+            <!--SECCION6-->
+            <div class="Contactenos" id="Contactenos">
+                <h1 class = "Titulo-Contactenos">Contactenos</h1>
+                <form action="">
+                    <input type="text" name="Nombre" placeholder="Nombre" id="ContactarNombre">
+                    <input type="text" name="Correo" placeholder="Correo" id="ContactarCorreo">
+                    <input type="text" name="Telefono" placeholder="Telefono" id="ContactarTelefono">
+                    <input type="text" name="Mensaje" placeholder="Escriba aqui su mensaje" id="ContactarMensaje">
+                    <input type="button" value = "Enviar" id="botonContacto">
+                </form>
+            </div>
+            <!--SECCION7-->
             <div class="Descargar" id="Descargar">
                 <img class="imagen-Descargar" src="img/calle2.png">
                 <h1 class="Titulo1-Descargar">Descarga la aplicación ahora</h1>
@@ -111,12 +127,12 @@
                 <div class="Botones-Descargar">
                     <div class="PlayStore-Boton">
                         <div class="PlayStore-Rectangulo">
-                            <a href="#"><h1 class="PlayStore-Titulo">Google Play</h1></a>
+                            <a href="https://play.google.com/store?hl=es_PE&gl=US"> <img class="img-playstore" src="img/googleplay.png"></a>
                         </div>
                     </div>
                     <div class="Appstore-Boton">
                         <div class="Appstore-Rectangulo">
-                            <a href="#"><h1 class="Appstore-Titulo">App Store</h1></a>
+                            <a href="https://www.apple.com/la/app-store/">  <img class="img-appstore" src="img/appsaatore.png"></a>
                         </div>
                     </div>
                 </div>
@@ -133,10 +149,11 @@
                 <!--NAVEGACION-->
                 <nav class="nav">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#Home">Home</a></li>
                         <li><a href="#ComoFunciona">¿Como funciona?</a></li>
                         <li><a href="#Planes">Nuestros planes</a></li>
                         <li><a href="#Descargar">Descarga</a></li>
+                        <li><a href="#Contactenos">Contactenos</a></li>
                     </ul>
                 </nav>
             </div>
@@ -162,6 +179,6 @@
     </div>
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 </html>
